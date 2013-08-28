@@ -1,0 +1,7 @@
+<%= link_to 'Add new Entry', new_entry_path(@entry) %>
+
+<% @entries.each do |entry| %>
+	<%= entry.title %>
+	<%= entry.description %>
+	<%= link_to 'Show', entry %>
+<% end %>

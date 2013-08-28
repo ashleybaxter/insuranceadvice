@@ -1,0 +1,11 @@
+<%= form_for @entry do |f| %>
+<fieldset>
+	<%= f.label :title %>
+    <%= f.text_field :title %>
+</fieldset>
+<fieldset>
+	<%= f.label :description %>
+	<%= f.text_area :description %>
+</fieldset>
+<%= f.submit %>
+<% end %>
