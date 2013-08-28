@@ -1,5 +1,9 @@
 <%= @entry.title %>
 <%= @entry.description %>
 
-<%= link_to 'Edit', edit_entry_path(@entry)%>
+<% if can? :update, @entry %> 
+	<%= link_to 'Edit', edit_entry_path(@entry)%>
+<% end %>
+<% if can? :destroy, @entry %>
 <%= link_to 'Delete', entry_path(@entry), :method => 'delete'%>
+<% end %>
