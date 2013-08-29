@@ -2,6 +2,6 @@
 
 <% @entries.each do |entry| %>
 	<%= entry.title %>
-	<%= entry.description %>
+	<%= entry.description.html_safe %>
 	<%= link_to 'Show', entry %>
 <% end %>

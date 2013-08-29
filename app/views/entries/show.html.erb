@@ -1,5 +1,5 @@
 <%= @entry.title %>
-<%= @entry.description %>
+<%= @entry.description.html_safe %>
 
 <% if can? :update, @entry %> 
 	<%= link_to 'Edit', edit_entry_path(@entry)%>
