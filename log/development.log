@@ -8969,3 +8969,2121 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:31:35 +0100
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:35:31 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (2.9ms)
+Compiled application.css  (1ms)  (pid 19255)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:35:32 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:35:32 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:32 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:32 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:32 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:32 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:35:34 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:35:34 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:34 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:34 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:35:34 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:34 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:34 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:35:34 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:36:39 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:36:39 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:36:39 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:36:39 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:36:39 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:36:39 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:36:39 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:36:39 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:36:39 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:38:10 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:38:10 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:10 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:10 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:38:10 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:10 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:10 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:10 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:10 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:38:28 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:38:28 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:28 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:28 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:28 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:38:28 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:28 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:28 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:38:28 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:41:08 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:41:08 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:41:08 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:08 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:08 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:08 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:08 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:08 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:08 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:41:09 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:09 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:41:09 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:41:09 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:09 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:09 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:09 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:09 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:41:09 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:44:42 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:44:42 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:42 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:42 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:42 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:44:42 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:42 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:42 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:42 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:44:57 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (2.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:57 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:57 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:44:57 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:57 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:44:57 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:57 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:57 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:44:58 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:46:17 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (3.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:46:17 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:46:17 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:46:17 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:46:17 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:46:17 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:46:17 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:46:17 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:46:17 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:46:48 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+ERROR: compiling _app_views_entries_index_html_erb___3959806945810615306_70342061032080 RAISED /Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:3: syntax error, unexpected ','
+'); @entries.each do |entry|, :class => "unit one-of-four" 
+                             ^
+Function body:           def _app_views_entries_index_html_erb___3959806945810615306_70342061032080(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "entries/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append= ( link_to 'Add new Entry', new_entry_path(@entry) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+'); @entries.each do |entry|, :class => "unit one-of-four" 
+@output_buffer.safe_concat('	');@output_buffer.append= ( entry.title );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	');@output_buffer.append= ( entry.description.html_safe );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	');@output_buffer.append= ( link_to 'Show', entry );@output_buffer.safe_concat('
+'); end 
+@output_buffer.safe_concat('</div>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__4135922972340969733__process_action__1577765404014476800__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__1895422650563099335__call__1959266707746071825__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered entries/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:3: syntax error, unexpected ','
+'); @entries.each do |entry|, :class => "unit one-of-four" 
+                             ^):
+    1: <%= link_to 'Add new Entry', new_entry_path(@entry) %>
+    2: 
+    3: <% @entries.each do |entry|, :class => "unit one-of-four" %>
+    4: 	<%= entry.title %>
+    5: 	<%= entry.description.html_safe %>
+    6: 	<%= link_to 'Show', entry %>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__4135922972340969733__process_action__1577765404014476800__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__1895422650563099335__call__1959266707746071825__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:47:53 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (4.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:47:53 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:47:53 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:47:53 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:47:53 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:47:53 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:47:53 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:47:53 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:47:53 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:48:32 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (4.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:48:32 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:32 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:32 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:48:32 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:32 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:32 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-08-29 14:48:55 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (4.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:48:55 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:55 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:55 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:48:55 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:55 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:55 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:55 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:48:55 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/sessions/current" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zZVRfYWjN6zOWvRZBJSG7b/yAPW+YVEoG1y3TmxZeRo=", "id"=>"current"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:49:31 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:50:03 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:03 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:03 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:03 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:50:03 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:50:03 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:03 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:03 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:50:24 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:50:24 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:24 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:24 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:24 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:50:24 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:24 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:24 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:24 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-08-29 14:50:25 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:50:25 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:50:25 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:25 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:25 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:25 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:25 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:25 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:25 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zZVRfYWjN6zOWvRZBJSG7b/yAPW+YVEoG1y3TmxZeRo=", "email"=>"ashleybaxter@me.com", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'ashleybaxter@me.com' LIMIT 1
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 276ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:50:29 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:51:13 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:51:13 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:51:13 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:51:13 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:51:13 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:51:13 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:51:13 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:51:13 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:51:13 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:54:18 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 14:54:18 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 14:54:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 14:54:18 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 14:54:18 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 14:54:18 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 14:54:18 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 14:54:18 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 14:54:18 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:55:40 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:55:52 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:56:07 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:56:31 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:56:44 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:57:02 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:57:17 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:57:43 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:57:57 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:59:24 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 14:59:52 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:00:02 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:00:48 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:01:07 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:01:31 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:01:33 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:33 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:01:33 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:01:33 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:33 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:33 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:33 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:33 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:33 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:01:52 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:01:52 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:52 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:52 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:01:52 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:52 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:52 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:52 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:52 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:01:53 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:01:53 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:53 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:53 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:53 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:53 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:01:53 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:53 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:01:53 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:02:58 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:02:58 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:02:58 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:02:58 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:02:58 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:02:58 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:02:58 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:02:58 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:02:58 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:03:52 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/sessions/current" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zZVRfYWjN6zOWvRZBJSG7b/yAPW+YVEoG1y3TmxZeRo=", "id"=>"current"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:03:58 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-08-29 15:04:07 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:07 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:04:07 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:04:07 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:07 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:07 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:07 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:07 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-08-29 15:04:45 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:04:45 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:45 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:45 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:45 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:04:45 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:45 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:45 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:04:45 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-08-29 15:05:17 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (1ms)  (pid 19255)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:18 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:18 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:18 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:18 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:18 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:18 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:18 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:05:21 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:21 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:21 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:21 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:21 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:21 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:21 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:21 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:21 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:05:23 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:23 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:23 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:23 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:23 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:23 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:23 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:23 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:31 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zZVRfYWjN6zOWvRZBJSG7b/yAPW+YVEoG1y3TmxZeRo=", "email"=>"ashleybaxter@me.com", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'ashleybaxter@me.com' LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 276ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:36 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:05:39 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:39 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:39 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:39 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:39 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:39 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:39 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:39 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:39 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/sessions/current" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zZVRfYWjN6zOWvRZBJSG7b/yAPW+YVEoG1y3TmxZeRo=", "id"=>"current"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:05:43 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:06:13 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:06:13 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:13 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:13 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:13 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:06:13 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:13 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:13 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:13 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:06:30 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:06:30 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:06:30 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:30 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:30 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:30 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:30 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:30 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-08-29 15:06:31 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:31 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:31 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:06:31 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:06:31 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:31 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:31 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-08-29 15:06:36 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zZVRfYWjN6zOWvRZBJSG7b/yAPW+YVEoG1y3TmxZeRo=", "email"=>"ashleybaxter@me.com", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'ashleybaxter@me.com' LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 276ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:06:37 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:06:37 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:37 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:06:37 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:37 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:37 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:37 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:37 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:06:37 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries/9" for 127.0.0.1 at 2013-08-29 15:11:47 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mEntry Load (0.1ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered entries/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:11:47 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:11:47 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:11:47 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:11:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:11:47 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:11:47 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:11:47 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:11:47 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries/9" for 127.0.0.1 at 2013-08-29 15:12:19 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mEntry Load (0.1ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered entries/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:12:19 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:12:19 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:19 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:19 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:19 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:19 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:19 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:19 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 15:12:28 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered entries/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:12:28 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:28 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:12:28 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:28 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:28 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:28 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:28 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:28 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries/11" for 127.0.0.1 at 2013-08-29 15:12:32 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mEntry Load (0.1ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1  [["id", "11"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered entries/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-29 15:12:32 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:32 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-08-29 15:12:32 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:32 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:32 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-29 15:12:32 +0100
+Served asset /application.js - 304 Not Modified (0ms)

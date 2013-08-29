@@ -1,7 +1,21 @@
-<%= link_to 'Add new Entry', new_entry_path(@entry) %>
+<div class="container">
+  <div class="grid">
+	<div class="unit span-grid">
+	<% if can? :update, @entry %> 
+	<%= link_to 'Add new Entry', new_entry_path(@entry) %>
+	<% end %>
+	</div>
+  </div>
+</div>	
 
+<div class="container">
+  <div class="grid">
 <% @entries.each do |entry| %>
-	<%= entry.title %>
-	<%= entry.description.html_safe %>
-	<%= link_to 'Show', entry %>
+	<%= content_tag(:div, class: 'unit one-of-three') do %>
+		<%= entry.title %>
+		<%= entry.description.html_safe %>
+		<%= link_to 'Show', entry %>
+	<% end %>
 <% end %>
+  </div>
+</div><!-- end .container -->

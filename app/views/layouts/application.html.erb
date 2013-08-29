@@ -7,33 +7,51 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="container">
 	
-<div id="user_header">
-	<% if current_user %>
-		Logged in as <%= current_user.email %>.
-		<%= link_to "Log Out", session_path("current"), method: "delete" %>
-	<% else %>
-  		<%= link_to "Sign Up", new_user_path %> or
-  		<%= link_to "Log In", new_session_path %>
-	<% end %>
+<div class="container">
+  <div class="grid">
+	<nav class="unit span-grid">
+	<ul>
+		<% if current_user %>
+	  <li>Logged in as <%= current_user.email %>.</li>
+	  <li><%= link_to "Log Out", session_path("current"), method: "delete" %></li>
+		<% else %>
+	  <li><%= link_to "Sign Up", new_user_path %> or</li>
+	  <li><%= link_to "Log In", new_session_path %></li>
+	</ul>
+		<% end %>
+	</nav>
+  </div>
+</div>
+	
+<div class="container">
+  <div class="grid">
+	<header class="unit span-grid">
+	  <h1>Insurance Advice Centre, by Brokers Direct</h1>
+	</head>
+  </div>
 </div>
 
-<% flash.each do |name, msg| %>
-<div class="alert alert-<%= name == :notice ? "success" : "error" %>">
-	<%= content_tag :div, msg, :class => "flash_#{name}" %>
-</div>
-<% end %>
+<div class="container">
+  <div class="grid">
+	<p class="unit span-grid">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  </div>
+</div>	
 
-<%= form_tag entries_path, :method => 'get' do %>
-  <p>
+<div class="container">
+  <div class="grid">
+ 	<div class="unit span-grid">
+	<%= form_tag entries_path, :method => 'get' do %>
+  	  <p>
     <%= text_field_tag :search, params[:search] %>
-    <%= submit_tag "Search", :name => nil %>
-  </p>
-<% end %>
+    	<%= submit_tag "Search", :name => nil %>
+  	  </p>
+	<% end %>
+	</div>
+  </div>
+</div>
 
 <%= yield %>
 
-</div>
 </body>
 </html>
