@@ -1,8 +1,10 @@
-<div class="container">
+<hr>
+
+<div class="container single-post">
   <div class="grid">
- 	<div class="unit span-grid">
-	<%= @entry.title %>
-	<%= @entry.description.html_safe %>
+ 	<div class="unit span-grid entry">
+	<h3><%= @entry.title %></h3>
+	<p><%= @entry.description.html_safe %></p>
 
 	<% if can? :update, @entry %> 
 		<%= link_to 'Edit', edit_entry_path(@entry)%>

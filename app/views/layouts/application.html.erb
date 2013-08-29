@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Insuranceadvice</title>
+  <title>Insurance Advice Centre | A Brokers Direct Project</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <script type="text/javascript" src="//use.typekit.net/kec1gho.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-	
+
+<div class="outer-container">	
 <div class="container">
   <div class="grid">
-	<nav class="unit span-grid">
+	<nav class="unit one-of-two">
 	<ul>
 		<% if current_user %>
-	  <li>Logged in as <%= current_user.email %>.</li>
+	  <li>Logged in as <%= current_user.email %> | </li>
 	  <li><%= link_to "Log Out", session_path("current"), method: "delete" %></li>
 		<% else %>
-	  <li><%= link_to "Sign Up", new_user_path %> or</li>
 	  <li><%= link_to "Log In", new_session_path %></li>
 	</ul>
 		<% end %>
 	</nav>
+	
+	<div class="unit one-of-two search">
+		<%= form_tag entries_path, :method => 'get' do %>
+	    <%= text_field_tag :search, params[:search], :class => "search-form" %>
+	    	<%= submit_tag "Search", :name => nil, :class => "submit" %>
+		<% end %>
+	</div>
   </div>
+</div>
 </div>
 	
 <div class="container">
   <div class="grid">
 	<header class="unit span-grid">
-	  <h1>Insurance Advice Centre, by Brokers Direct</h1>
+	  <h1><%= link_to 'Insurance Advice Centre, by Brokers Direct', root_url %></h1>
 	</head>
   </div>
 </div>
 
 <div class="container">
   <div class="grid">
-	<p class="unit span-grid">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+	<p class="unit span-grid description">Insurance can be complicated, especially with all the jargon. <%= link_to "Brokers Direct", 'http://brokersdirect.co.uk' %> has put together an insurance advice centre with the aim of answering your frequently asked questions. Get in touch.</p>
   </div>
 </div>	
 
-<div class="container">
-  <div class="grid">
- 	<div class="unit span-grid">
-	<%= form_tag entries_path, :method => 'get' do %>
-  	  <p>
-    <%= text_field_tag :search, params[:search] %>
-    	<%= submit_tag "Search", :name => nil %>
-  	  </p>
-	<% end %>
-	</div>
-  </div>
-</div>
-
 <%= yield %>
+
+<div class="outer-container">	
+<div class="container">
+  <footer class="grid">
+	<p class="unit span-grid">Insurance Advice Centre &#124; A Brokers Direct project</p>
+  </footer>
+</div>
+</div>
 
 </body>
 </html>

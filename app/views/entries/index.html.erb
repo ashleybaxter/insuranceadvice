@@ -1,20 +1,25 @@
 <div class="container">
   <div class="grid">
 	<div class="unit span-grid">
+		<% if current_user %>
 	<% if can? :update, @entry %> 
-	<%= link_to 'Add new Entry', new_entry_path(@entry) %>
+	<%= link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" %>
+	<% end %>
+		<% else %>
+	<%= mail_to "info@brokersdirect.co.uk", 'Submit a question', :class => "new-entry", :subject => "Hey, I have an insurance question" %>	
 	<% end %>
 	</div>
   </div>
-</div>	
+</div>
+
+<hr>
 
 <div class="container">
-  <div class="grid">
+  <div class="grid entries">
 <% @entries.each do |entry| %>
-	<%= content_tag(:div, class: 'unit one-of-three') do %>
-		<%= entry.title %>
-		<%= entry.description.html_safe %>
-		<%= link_to 'Show', entry %>
+	<%= content_tag(:div, class: 'unit one-of-two entry') do %>
+		<h3><%= link_to entry.title, entry %></h3>
+		<p><%= entry.description.html_safe %></p>
 	<% end %>
 <% end %>
   </div>
