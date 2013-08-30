@@ -4,4 +4,5 @@ ActiveAdmin.register User do
     column :password
     column :password_confirmation
   end
+  default_actions
 end
