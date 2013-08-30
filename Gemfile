@@ -10,6 +10,9 @@ group :development, :test do
 end
 
 gem 'cancan'
+gem 'activeadmin'
+gem "jquery-rails", "< 3.0.0"
+gem 'jquery-ui-rails'
 
 group :production do
   # gems specifically for Heroku go here
@@ -28,8 +31,6 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
