@@ -38,6 +38,34 @@ time, mark, audio, video, .submit {
 	vertical-align: baseline;
 }
 
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 50px; 
+}
+
+.site-footer {
+  background: #3ea5ce;
+}
+
 h1, h2, h3, h4, h5 {
 	color: #2b7490;
 }
@@ -189,7 +217,7 @@ nav {
 }
 
 footer {
-	font-size: 0.7em;
+	font-size: 0.8em;
 	margin-top: 40px;
 }
 	footer p {

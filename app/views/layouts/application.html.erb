@@ -9,6 +9,7 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
+<div class="page-wrap">	
 
 <div class="outer-container">	
 <div class="container">
@@ -37,7 +38,7 @@
 <div class="container">
   <div class="grid">
 	<header class="unit span-grid">
-	  <h1><%= link_to 'Insurance Advice Centre, by Brokers Direct', root_url %></h1>
+	  <h1><%= link_to 'Insurance Advice Centre', root_url %></h1>
 	</head>
   </div>
 </div>
@@ -50,11 +51,15 @@
 
 <%= yield %>
 
+</div><!-- end page-wrap -->
+
+<footer class="site-footer">
 <div class="outer-container">	
 <div class="container">
   <footer class="grid">
 	<p class="unit span-grid">Insurance Advice Centre &#124; A <%= link_to "Brokers Direct", 'http://brokersdirect.co.uk' %> project</p>
   </footer>
+</div>
 </div>
 </div>
 
