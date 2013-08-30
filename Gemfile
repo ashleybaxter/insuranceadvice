@@ -10,7 +10,7 @@ group :development, :test do
 end
 
 gem 'cancan'
-gem 'activeadmin'
+gem 'activeadmin', :git => "git://github.com/gregbell/active_admin.git"
 gem "jquery-rails", "< 3.0.0"
 gem 'jquery-ui-rails'
 
