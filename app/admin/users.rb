@@ -3,6 +3,6 @@ ActiveAdmin.register User do
     column :email
     column :password
     column :password_confirmation
+    default_actions
   end
-  default_actions
 end
