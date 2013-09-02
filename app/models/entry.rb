@@ -3,7 +3,7 @@ class Entry < ActiveRecord::Base
   
   def self.search(search)
     if search
-      find(:all, :conditions => ['description or title LIKE ?', "%#{search.upcase}%"])
+      find(:all, :conditions => ['description or title ILIKE ?', "%#{search}%"])
     else
       find(:all)
     end
