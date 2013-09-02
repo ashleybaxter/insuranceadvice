@@ -3,7 +3,7 @@ class Entry < ActiveRecord::Base
   
   def self.search(search)
     if search.present?
-      where("description ilike :s or title ilike :s", q: "%#{search}%")
+      where("description ilike :q or title ilike :q", q: "%#{search}%")
     else
       scoped
     end
