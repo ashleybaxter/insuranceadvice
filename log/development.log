@@ -28849,3 +28849,258 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 13:01:24 +0100
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/new" for 127.0.0.1 at 2013-09-02 13:35:02 +0100
+Processing by EntriesController#new as HTML
+  Rendered entries/_form.html.erb (129.9ms)
+  Rendered entries/new.html.erb within layouts/application (137.4ms)
+Compiled toast.css  (0ms)  (pid 1532)
+Compiled application.css  (4ms)  (pid 1532)
+Compiled jquery.js  (2ms)  (pid 1532)
+Compiled jquery_ujs.js  (0ms)  (pid 1532)
+Compiled jquery-ui.js  (3ms)  (pid 1532)
+Compiled active_admin/lib/namespace.js  (62ms)  (pid 1532)
+Compiled active_admin/components/jquery.aa.checkbox-toggler.js  (94ms)  (pid 1532)
+Compiled active_admin/components/jquery.aa.dropdown-menu.js  (120ms)  (pid 1532)
+Compiled active_admin/components/jquery.aa.popover.js  (113ms)  (pid 1532)
+Compiled active_admin/components/jquery.aa.table-checkbox-toggler.js  (80ms)  (pid 1532)
+Compiled active_admin/pages/application.js  (127ms)  (pid 1532)
+Compiled active_admin/pages/batch_actions.js  (77ms)  (pid 1532)
+Compiled active_admin/application.js  (757ms)  (pid 1532)
+Compiled active_admin/base.js  (769ms)  (pid 1532)
+Compiled active_admin.js  (776ms)  (pid 1532)
+Compiled entries.js  (55ms)  (pid 1532)
+Compiled sessions.js  (57ms)  (pid 1532)
+Compiled users.js  (107ms)  (pid 1532)
+Compiled application.js  (1082ms)  (pid 1532)
+  [1m[36mUser Load (4.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 1398ms (Views: 1384.3ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /toast.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /jquery-ui.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /active_admin/base.js - 304 Not Modified (80ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /entries.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-02 13:35:03 +0100
+Served asset /users.js - 304 Not Modified (2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/new" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Processing by EntriesController#new as HTML
+  Rendered entries/_form.html.erb (130.0ms)
+  Rendered entries/new.html.erb within layouts/application (136.7ms)
+Compiled application.css  (1ms)  (pid 1601)
+  [1m[36mUser Load (4.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 288ms (Views: 275.7ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /toast.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /jquery-ui.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin/application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin/base.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /active_admin.js - 200 OK (27ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /entries.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:42 +0100
+Served asset /application.js - 200 OK (79ms)
+
+
+Started GET "/entries/new" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Processing by EntriesController#new as HTML
+  Rendered entries/_form.html.erb (2.5ms)
+  Rendered entries/new.html.erb within layouts/application (2.9ms)
+Compiled application.css  (1ms)  (pid 1601)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-02 13:43:50 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
