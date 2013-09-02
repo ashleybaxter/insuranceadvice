@@ -6,7 +6,7 @@
 	<%= link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" %>
 	<% end %>
 		<% else %>
-	<%= mail_to "info@brokersdirect.co.uk", 'Submit a question', :class => "new-entry", :subject => "Hey, I have an insurance question" %>	
+	<%= link_to 'Browse our guides', entries_path(@entry), :class => "new-entry" %>	
 	<% end %>
 	</div>
   </div>

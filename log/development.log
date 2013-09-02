@@ -31030,3 +31030,1072 @@ ActionView::Template::Error (SQLite3::SQLException: near "ilike": syntax error: 
   Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
   Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
   Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.8ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 16:04:32 +0100
+Processing by EntriesController#index as HTML
+ERROR: compiling _app_views_entries_index_html_erb__3109425374635220835_70224868230360 RAISED /Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+... 'Browse our guides', entries :class => "new-entry" );@outpu...
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:19: syntax error, unexpected keyword_do_block, expecting keyword_end
+'); @entries.each do |entry| 
+                    ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:20: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ss: 'unit one-of-two entry') do @output_buffer.safe_concat('
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:24: syntax error, unexpected keyword_end, expecting $end
+ end 
+    ^
+Function body:           def _app_views_entries_index_html_erb__3109425374635220835_70224868230360(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "entries/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div class="container">
+  <div class="grid">
+	<div class="unit span-grid">
+');		 if current_user 
+	 if can? :update, @entry  
+@output_buffer.safe_concat('	');@output_buffer.append= ( link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" );@output_buffer.safe_concat('
+');	 end 
+		 else 
+@output_buffer.safe_concat('	');@output_buffer.append= ( link_to 'Browse our guides', entries :class => "new-entry" );@output_buffer.safe_concat('	
+');	 end 
+@output_buffer.safe_concat('	</div>
+  </div>
+</div>
+
+<hr>
+
+<div class="container">
+  <div class="grid entries">
+'); @entries.each do |entry| 
+@output_buffer.safe_concat('	');@output_buffer.append=  content_tag(:div, class: 'unit one-of-two entry') do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('		<h3>');@output_buffer.append= ( link_to entry.title, entry );@output_buffer.safe_concat('</h3>
+		<p>');@output_buffer.append= ( entry.description.html_safe );@output_buffer.safe_concat('</p>
+');	 end 
+ end 
+@output_buffer.safe_concat('  </div>
+</div><!-- end .container -->');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__1687330427268926980__process_action__3085807852197633272__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__2415288424897859220__call__776292577552967664__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered entries/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 56ms
+
+ActionView::Template::Error (/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+... 'Browse our guides', entries :class => "new-entry" );@outpu...
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:19: syntax error, unexpected keyword_do_block, expecting keyword_end
+'); @entries.each do |entry| 
+                    ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:20: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ss: 'unit one-of-two entry') do @output_buffer.safe_concat('
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:24: syntax error, unexpected keyword_end, expecting $end
+ end 
+    ^):
+    6: 	<%= link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" %>
+    7: 	<% end %>
+    8: 		<% else %>
+    9: 	<%= link_to 'Browse our guides', entries :class => "new-entry" %>	
+    10: 	<% end %>
+    11: 	</div>
+    12:   </div>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__1687330427268926980__process_action__3085807852197633272__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__2415288424897859220__call__776292577552967664__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 16:04:44 +0100
+Processing by EntriesController#index as HTML
+ERROR: compiling _app_views_entries_index_html_erb__3109425374635220835_70224868230360 RAISED /Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+... 'Browse our guides', entries :class => "new-entry" );@outpu...
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:19: syntax error, unexpected keyword_do_block, expecting keyword_end
+'); @entries.each do |entry| 
+                    ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:20: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ss: 'unit one-of-two entry') do @output_buffer.safe_concat('
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:24: syntax error, unexpected keyword_end, expecting $end
+ end 
+    ^
+Function body:           def _app_views_entries_index_html_erb__3109425374635220835_70224868230360(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "entries/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div class="container">
+  <div class="grid">
+	<div class="unit span-grid">
+');		 if current_user 
+	 if can? :update, @entry  
+@output_buffer.safe_concat('	');@output_buffer.append= ( link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" );@output_buffer.safe_concat('
+');	 end 
+		 else 
+@output_buffer.safe_concat('	');@output_buffer.append= ( link_to 'Browse our guides', entries :class => "new-entry" );@output_buffer.safe_concat('	
+');	 end 
+@output_buffer.safe_concat('	</div>
+  </div>
+</div>
+
+<hr>
+
+<div class="container">
+  <div class="grid entries">
+'); @entries.each do |entry| 
+@output_buffer.safe_concat('	');@output_buffer.append=  content_tag(:div, class: 'unit one-of-two entry') do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('		<h3>');@output_buffer.append= ( link_to entry.title, entry );@output_buffer.safe_concat('</h3>
+		<p>');@output_buffer.append= ( entry.description.html_safe );@output_buffer.safe_concat('</p>
+');	 end 
+ end 
+@output_buffer.safe_concat('  </div>
+</div><!-- end .container -->');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__1687330427268926980__process_action__3085807852197633272__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__2415288424897859220__call__776292577552967664__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered entries/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+... 'Browse our guides', entries :class => "new-entry" );@outpu...
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:19: syntax error, unexpected keyword_do_block, expecting keyword_end
+'); @entries.each do |entry| 
+                    ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:20: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ss: 'unit one-of-two entry') do @output_buffer.safe_concat('
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:24: syntax error, unexpected keyword_end, expecting $end
+ end 
+    ^):
+    6: 	<%= link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" %>
+    7: 	<% end %>
+    8: 		<% else %>
+    9: 	<%= link_to 'Browse our guides', entries :class => "new-entry" %>	
+    10: 	<% end %>
+    11: 	</div>
+    12:   </div>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__1687330427268926980__process_action__3085807852197633272__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__2415288424897859220__call__776292577552967664__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 16:04:53 +0100
+Processing by EntriesController#index as HTML
+ERROR: compiling _app_views_entries_index_html_erb__3109425374635220835_70224868230360 RAISED /Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+... 'Browse our guides', entries :class => "new-entry" );@outpu...
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:19: syntax error, unexpected keyword_do_block, expecting keyword_end
+'); @entries.each do |entry| 
+                    ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:20: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ss: 'unit one-of-two entry') do @output_buffer.safe_concat('
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:24: syntax error, unexpected keyword_end, expecting $end
+ end 
+    ^
+Function body:           def _app_views_entries_index_html_erb__3109425374635220835_70224868230360(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "entries/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<div class="container">
+  <div class="grid">
+	<div class="unit span-grid">
+');		 if current_user 
+	 if can? :update, @entry  
+@output_buffer.safe_concat('	');@output_buffer.append= ( link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" );@output_buffer.safe_concat('
+');	 end 
+		 else 
+@output_buffer.safe_concat('	');@output_buffer.append= ( link_to 'Browse our guides', entries :class => "new-entry" );@output_buffer.safe_concat('	
+');	 end 
+@output_buffer.safe_concat('	</div>
+  </div>
+</div>
+
+<hr>
+
+<div class="container">
+  <div class="grid entries">
+'); @entries.each do |entry| 
+@output_buffer.safe_concat('	');@output_buffer.append=  content_tag(:div, class: 'unit one-of-two entry') do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('		<h3>');@output_buffer.append= ( link_to entry.title, entry );@output_buffer.safe_concat('</h3>
+		<p>');@output_buffer.append= ( entry.description.html_safe );@output_buffer.safe_concat('</p>
+');	 end 
+ end 
+@output_buffer.safe_concat('  </div>
+</div><!-- end .container -->');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__1687330427268926980__process_action__3085807852197633272__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__2415288424897859220__call__776292577552967664__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered entries/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:9: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+... 'Browse our guides', entries :class => "new-entry" );@outpu...
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:19: syntax error, unexpected keyword_do_block, expecting keyword_end
+'); @entries.each do |entry| 
+                    ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:20: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ss: 'unit one-of-two entry') do @output_buffer.safe_concat('
+...                               ^
+/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/index.html.erb:24: syntax error, unexpected keyword_end, expecting $end
+ end 
+    ^):
+    6: 	<%= link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" %>
+    7: 	<% end %>
+    8: 		<% else %>
+    9: 	<%= link_to 'Browse our guides', entries :class => "new-entry" %>	
+    10: 	<% end %>
+    11: 	</div>
+    12:   </div>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__1687330427268926980__process_action__3085807852197633272__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__2415288424897859220__call__776292577552967664__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 16:05:06 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mUser Load (4.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 146ms (Views: 140.0ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /toast.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /jquery-ui.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /active_admin/base.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /entries.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:07 +0100
+Served asset /users.js - 304 Not Modified (47ms)
+
+
+Started DELETE "/sessions/current" for 127.0.0.1 at 2013-09-02 16:05:13 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2FUvl6J+4DMBZrxNOIhsAeSIipHaWxInfsmz6Zo85iE=", "id"=>"current"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 16:05:13 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (17.4ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined local variable or method `entries' for #<#<Class:0x007fe37f81d368>:0x007fe37fd86610>):
+    6: 	<%= link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" %>
+    7: 	<% end %>
+    8: 		<% else %>
+    9: 	<%= link_to 'Browse our guides', entries, :class => "new-entry" %>	
+    10: 	<% end %>
+    11: 	</div>
+    12:   </div>
+  app/views/entries/index.html.erb:9:in `_app_views_entries_index_html_erb___3608506543980697248_70307538608160'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.1ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+  Rendered entries/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 173ms (Views: 171.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /toast.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /jquery-ui.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /active_admin/base.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /entries.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:57 +0100
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/entries" for 127.0.0.1 at 2013-09-02 16:05:59 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-02 16:05:59 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:59 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:59 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:59 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:59 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:59 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-02 16:05:59 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-02 16:06:00 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 16:06:00 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-02 16:06:00 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-02 16:06:00 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-02 16:06:00 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-02 16:06:00 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-02 16:06:00 +0100
+Served asset /users.js - 304 Not Modified (0ms)
