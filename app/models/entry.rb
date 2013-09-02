@@ -2,10 +2,10 @@ class Entry < ActiveRecord::Base
   attr_accessible :description, :title
   
   def self.search(search)
-    if search
-      find(:all, :conditions => ['UPPER(description) or UPPER(title) LIKE ?', "%#{search.upcase}%"])
+    if search.present?
+      where("description ilike :s or title ilike :s", q: "%#{searcg}%")
     else
-      find(:all)
+      scoped
     end
   end
 end
