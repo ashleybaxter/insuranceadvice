@@ -30566,3 +30566,83 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-02 15:47:39 +0100
 Served asset /entries.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-02 15:53:02 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mUser Load (4.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mEntry Load (0.1ms)[0m  SELECT "entries".* FROM "entries" 
+  Rendered entries/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 188ms (Views: 182.7ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /toast.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /jquery-ui.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /active_admin/base.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /entries.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-02 15:53:03 +0100
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/entries?utf8=%E2%9C%93&search=accidental" for 127.0.0.1 at 2013-09-02 15:53:06 +0100
+Processing by EntriesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"accidental"}
+Completed 500 Internal Server Error in 1ms
+
+NameError (undefined local variable or method `searcg' for #<Class:0x007fd45ad5aee0>):
+  app/models/entry.rb:6:in `search'
+  app/controllers/entries_controller.rb:4:in `index'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
