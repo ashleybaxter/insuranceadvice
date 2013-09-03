@@ -6,7 +6,8 @@
 	<%= link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" %>
 	<% end %>
 		<% else %>
-	<%= link_to 'Browse our guides', entries_path(@entry), :class => "new-entry" %>	
+	<a href="#" onclick="document.getElementById('guides').style.display='block';" class="new-entry">Browse our guides</a>
+	<div id="guides" style="display:none;"><%= link_to "Landlord", 'http://nameless-hollows-8069.herokuapp.com/tags/Landlord' %></div>
 	<% end %>
 	</div>
   </div>
