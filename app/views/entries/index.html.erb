@@ -7,7 +7,11 @@
 	<% end %>
 		<% else %>
 	<a href="#" onclick="document.getElementById('guides').style.display='block';" class="new-entry">Browse our guides</a>
-	<div id="guides" style="display:none;"><%= link_to "Landlord", 'http://nameless-hollows-8069.herokuapp.com/tags/Landlord' %> &#124; <%= link_to "General", 'http://nameless-hollows-8069.herokuapp.com/tags/General' %></div>
+	<div id="guides" style="display:none;">
+		<p><%= link_to "Landlord", 'http://nameless-hollows-8069.herokuapp.com/tags/Landlord' %> &#124; 
+		<%= link_to "General", 'http://nameless-hollows-8069.herokuapp.com/tags/General' %>
+		</p>
+	</div>
 	<% end %>
 	</div>
   </div>

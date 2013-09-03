@@ -145,6 +145,13 @@ header h1, .login h1 {
 	font-size: 1.35em;
 }
 
+#guides {
+	text-align: center;
+}
+	#guides p {
+		margin-bottom: 0 !important;
+	}
+
 nav {
 	font-size: 0.7em;
 }
