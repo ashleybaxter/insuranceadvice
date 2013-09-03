@@ -3,8 +3,10 @@ class EntriesController < ApplicationController
   def index
     if params[:tag]
       @entries = Entry.tagged_with(params[:tag])
-    else
+    elsif params[:search]
       @entries = Entry.search(params[:search])
+    else
+      @entries = Entry.all
     end
   end
   
