@@ -12,6 +12,10 @@
 	<%= f.label :description %>
 	<%= f.text_area :description %>
 </fieldset>
+<fieldset>
+	<%= f.label :tag_list, "Tags" %>
+	<%= f.text_field :tag_list %>
+</fieldset>
 <%= f.submit 'Create Entry', :class => "submit" %>
 <% end %>
 	</div>

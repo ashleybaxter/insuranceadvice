@@ -1,7 +1,11 @@
 class EntriesController < ApplicationController
   
   def index
-    @entries = Entry.search(params[:search])
+    if params[:tag]
+      @entries = Entry.tagged_with(params[:tag])
+    else
+      @entries = Entry.search(params[:search])
+    end
   end
   
   def new

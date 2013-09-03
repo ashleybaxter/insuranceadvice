@@ -13,6 +13,7 @@ gem 'cancan'
 gem 'activeadmin', :git => "git://github.com/gregbell/active_admin.git"
 gem "jquery-rails", "< 3.0.0"
 gem 'jquery-ui-rails'
+gem 'acts-as-taggable-on'
 
 group :production do
   # gems specifically for Heroku go here
