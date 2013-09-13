@@ -8,8 +8,8 @@
 		<% else %>
 	<a href="#" onclick="document.getElementById('guides').style.display='block';" class="new-entry">Browse our guides</a>
 	<div id="guides" style="display:none;">
-		<p><%= link_to "Landlord", 'http://nameless-hollows-8069.herokuapp.com/tags/Landlord' %> &#124; 
-		<%= link_to "General", 'http://nameless-hollows-8069.herokuapp.com/tags/General' %>
+		<p><%= link_to "Landlord", '/tags/Landlord' %> &#124; 
+		<%= link_to "General", '/tags/General' %>
 		</p>
 	</div>
 	<% end %>
@@ -25,6 +25,7 @@
 	<%= content_tag(:div, class: 'unit one-of-two entry') do %>
 		<h3><%= link_to entry.title, entry %></h3>
 		<p><%= entry.description.html_safe %></p>
+		<p class="tags"><%= raw @entry.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p>
 	<% end %>
 <% end %>
   </div>
