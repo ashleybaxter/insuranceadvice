@@ -2,9 +2,9 @@ class EntriesController < ApplicationController
   
   def index
     if params[:tag]
-      @entries = Entry.tagged_with(params[:tag])
+      @entries = Entry.tagged_with(params[:tag]).order('landlord_id')
     elsif params[:search]
-      @entries = Entry.search(params[:search])
+      @entries = Entry.search(params[:search]).order('landlord_id')
     else
       @entries = Entry.all
     end
