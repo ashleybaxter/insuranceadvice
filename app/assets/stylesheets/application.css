@@ -194,7 +194,7 @@ nav {
 	padding-top: 40px;
 }
 
-.tags {
+.tags, .tags a:link {
 	font-size: 80%;
 }
 
