@@ -1,5 +1,5 @@
 class Entry < ActiveRecord::Base
-  attr_accessible :description, :title, :tag_list
+  attr_accessible :description, :title, :tag_list, :landlord_id, :guide_id
   acts_as_taggable
   
   def to_param
