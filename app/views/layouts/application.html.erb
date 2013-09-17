@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Insurance Advice Centre | A Brokers Direct Project</title>
+  <meta name="description" content="Regularly updated guides debunking your insurance questions.">
+  <link rel="author" href="https://plus.google.com/117637421334476287274/posts"/>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -48,6 +50,25 @@
 	<p class="unit span-grid description">Insurance can be complicated, especially with all the jargon. <%= link_to "Brokers Direct", 'http://brokersdirect.co.uk' %> is putting together a step-by-step insurance guide with the aim of answering your frequently asked questions. <%= mail_to "info@brokersdirect.co.uk", 'Submit a question', :subject => "Hey, I have an insurance question" %>, or…</p>
   </div>
 </div>	
+
+<div class="container">
+  <div class="grid">
+	<div class="unit span-grid">
+		<% if current_user %>
+	<% if can? :update, @entry %> 
+	<%= link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" %>
+	<% end %>
+		<% else %>
+	<a href="#" onclick="document.getElementById('guides').style.display='block';" class="new-entry">Browse our guides</a>
+	<div id="guides" style="display:none;">
+		<p><%= link_to "Landlord", '/tags/Landlord' %> &#124; 
+		<%= link_to "General", '/tags/General' %>
+		</p>
+	</div>
+	<% end %>
+	</div>
+  </div>
+</div>
 
 <%= yield %>
 

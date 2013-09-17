@@ -1,21 +1,4 @@
-<div class="container">
-  <div class="grid">
-	<div class="unit span-grid">
-		<% if current_user %>
-	<% if can? :update, @entry %> 
-	<%= link_to 'Add new entry', new_entry_path(@entry), :class => "new-entry" %>
-	<% end %>
-		<% else %>
-	<a href="#" onclick="document.getElementById('guides').style.display='block';" class="new-entry">Browse our guides</a>
-	<div id="guides" style="display:none;">
-		<p><%= link_to "Landlord", '/tags/Landlord' %> &#124; 
-		<%= link_to "General", '/tags/General' %>
-		</p>
-	</div>
-	<% end %>
-	</div>
-  </div>
-</div>
+
 
 <hr>
 
