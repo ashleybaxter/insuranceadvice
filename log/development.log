@@ -40963,3 +40963,1882 @@ Served asset /sessions.js - 304 Not Modified (0ms)
 
 Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 12:15:14 +0100
 Served asset /users.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" ORDER BY landlord_id[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (98.3ms)
+Completed 200 OK in 229ms (Views: 215.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /toast.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /jquery-ui.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /active_admin/base.js - 304 Not Modified (85ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /entries.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-17 14:01:10 +0100
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/entries?utf8=%E2%9C%93&search=contents" for 127.0.0.1 at 2013-09-17 14:01:15 +0100
+Processing by EntriesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"contents"}
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE (description ilike '%contents%' or title ilike '%contents%') ORDER BY landlord_id, guide_id[0m
+SQLite3::SQLException: near "ilike": syntax error: SELECT "entries".* FROM "entries"  WHERE (description ilike '%contents%' or title ilike '%contents%') ORDER BY landlord_id, guide_id
+  Rendered entries/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (SQLite3::SQLException: near "ilike": syntax error: SELECT "entries".* FROM "entries"  WHERE (description ilike '%contents%' or title ilike '%contents%') ORDER BY landlord_id, guide_id):
+    4: 
+    5: <div class="container">
+    6:   <div class="grid entries">
+    7: <% @entries.each do |entry| %>
+    8: 	<%= content_tag(:div, class: 'unit one-of-two entry') do %>
+    9: 		<h3><%= link_to entry.title, entry %></h3>
+    10: 		<p><%= entry.description.html_safe %></p>
+  app/views/entries/index.html.erb:7:in `_app_views_entries_index_html_erb__1392246262904538004_70169812884840'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" ORDER BY landlord_id[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (131.6ms)
+Completed 200 OK in 290ms (Views: 271.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries" ORDER BY landlord_id[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 48ms (Views: 45.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /toast.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /jquery-ui.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/base.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /entries.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:18 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE (landlord_id > 9) ORDER BY id ASC LIMIT 1 OFFSET 0[0m
+  Rendered entries/show.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:21 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[35mEntry Load (0.1ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mEntry Load (0.1ms)[0m  SELECT "entries".* FROM "entries" WHERE (landlord_id > 9) ORDER BY id ASC LIMIT 1 OFFSET 0
+  Rendered entries/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /entries.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-17 14:51:25 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE (landlord_id > 9) ORDER BY id ASC LIMIT 1 OFFSET 1[0m
+  Rendered entries/show.html.erb within layouts/application (83.1ms)
+Completed 200 OK in 214ms (Views: 201.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /toast.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /jquery-ui.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /active_admin/base.js - 304 Not Modified (71ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /entries.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 14:52:03 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 14:52:27 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/show.html.erb within layouts/application (90.0ms)
+Completed 500 Internal Server Error in 117ms
+
+ActionView::Template::Error (undefined local variable or method `entry' for #<#<Class:0x007ff33a825480>:0x007ff33ab037d8>):
+    15: 	<% end %>
+    16: 	</div>
+    17: 	
+    18: 	<p><%= link_to "Next", entry.next %>
+    19:   </div>
+    20: </div>
+  app/views/entries/show.html.erb:18:in `_app_views_entries_show_html_erb__317440687530295800_70341319609620'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 14:53:03 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mEntry Load (0.1ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE (landlord_id > NULL) ORDER BY id ASC LIMIT 1 OFFSET 0[0m
+  Rendered entries/show.html.erb within layouts/application (80.8ms)
+Completed 200 OK in 214ms (Views: 200.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-17 14:53:03 +0100
+Served asset /toast.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:03 +0100
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:03 +0100
+Served asset /jquery-ui.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:03 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:03 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:03 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:04 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:04 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:04 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:04 +0100
+Served asset /active_admin/base.js - 304 Not Modified (77ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:04 +0100
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:04 +0100
+Served asset /entries.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-17 14:53:04 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 14:58:14 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/show.html.erb within layouts/application (93.1ms)
+Completed 500 Internal Server Error in 122ms
+
+ActionView::Template::Error (undefined method `next' for #<Entry:0x007fbf57802938>):
+    15: 	<% end %>
+    16: 	</div>
+    17: 	
+    18: 	<p><%= link_to "Next", @entry.next %>
+    19:   </div>
+    20: </div>
+  app/views/entries/show.html.erb:18:in `_app_views_entries_show_html_erb__4170290727649670603_70229893704280'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 14:59:08 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+ERROR: compiling _app_views_entries_show_html_erb___198264050006147480_70272986697500 RAISED /Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/show.html.erb:18: void value expression
+...ppend= ( link_to "Next", next );@output_buffer.safe_concat('
+...                               ^
+Function body:           def _app_views_entries_show_html_erb___198264050006147480_70272986697500(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "entries/show";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<hr>
+
+<div class="container single-post">
+  <div class="grid">
+ 	<div class="unit span-grid entry">
+	<h3>');@output_buffer.append= ( @entry.title );@output_buffer.safe_concat('</h3>
+	<p>');@output_buffer.append= ( @entry.description.html_safe );@output_buffer.safe_concat('</p>
+	<p>Tags: ');@output_buffer.append= ( raw @entry.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') );@output_buffer.safe_concat('</p>
+
+');	 if can? :update, @entry  
+@output_buffer.safe_concat('		');@output_buffer.append= ( link_to 'Edit', edit_entry_path(@entry));@output_buffer.safe_concat('
+');	 end 
+	 if can? :destroy, @entry 
+@output_buffer.safe_concat('		');@output_buffer.append= ( link_to 'Delete', entry_path(@entry), :method => 'delete');@output_buffer.safe_concat('
+');	 end 
+@output_buffer.safe_concat('	</div>
+	
+	<p>');@output_buffer.append= ( link_to "Next", next );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </div>
+</div>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__2152792878481876105__process_action__1386460094519261270__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__657084023420490756__call__2427293623935733065__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered entries/show.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/show.html.erb:18: void value expression
+...ppend= ( link_to "Next", next );@output_buffer.safe_concat('
+...                               ^):
+    15: 	<% end %>
+    16: 	</div>
+    17: 	
+    18: 	<p><%= link_to "Next", next %>
+    19:   </div>
+    20: </div>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__2152792878481876105__process_action__1386460094519261270__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__657084023420490756__call__2427293623935733065__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 15:01:06 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+ERROR: compiling _app_views_entries_show_html_erb___842791126576100593_70194996014420 RAISED /Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/show.html.erb:18: void value expression
+...ppend= ( link_to "Next", next );@output_buffer.safe_concat('
+...                               ^
+Function body:           def _app_views_entries_show_html_erb___842791126576100593_70194996014420(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "entries/show";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<hr>
+
+<div class="container single-post">
+  <div class="grid">
+ 	<div class="unit span-grid entry">
+	<h3>');@output_buffer.append= ( @entry.title );@output_buffer.safe_concat('</h3>
+	<p>');@output_buffer.append= ( @entry.description.html_safe );@output_buffer.safe_concat('</p>
+	<p>Tags: ');@output_buffer.append= ( raw @entry.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') );@output_buffer.safe_concat('</p>
+
+');	 if can? :update, @entry  
+@output_buffer.safe_concat('		');@output_buffer.append= ( link_to 'Edit', edit_entry_path(@entry));@output_buffer.safe_concat('
+');	 end 
+	 if can? :destroy, @entry 
+@output_buffer.safe_concat('		');@output_buffer.append= ( link_to 'Delete', entry_path(@entry), :method => 'delete');@output_buffer.safe_concat('
+');	 end 
+@output_buffer.safe_concat('	</div>
+	
+	<p>');@output_buffer.append= ( link_to "Next", next );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </div>
+</div>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__228223372021048432__process_action__2726979245478049582__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__853889082691428043__call__3126159742883536667__callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered entries/show.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 70ms
+
+ActionView::Template::Error (/Users/ashleybaxter/Projects/insuranceadvice/app/views/entries/show.html.erb:18: void value expression
+...ppend= ( link_to "Next", next );@output_buffer.safe_concat('
+...                               ^):
+    15: 	<% end %>
+    16: 	</div>
+    17: 	
+    18: 	<p><%= link_to "Next", next %>
+    19:   </div>
+    20: </div>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__228223372021048432__process_action__2726979245478049582__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__853889082691428043__call__3126159742883536667__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/ashleybaxter/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 15:01:22 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/show.html.erb within layouts/application (82.4ms)
+Completed 500 Internal Server Error in 145ms
+
+ActionView::Template::Error (undefined method `landlord_id' for nil:NilClass):
+    15: 	<% end %>
+    16: 	</div>
+    17: 	
+    18: 	<p><%= link_to "Next", @entry.next %>
+    19:   </div>
+    20: </div>
+  app/models/entry.rb:18:in `next'
+  app/views/entries/show.html.erb:18:in `_app_views_entries_show_html_erb___1983261981698146965_70319704677640'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 15:01:57 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/show.html.erb within layouts/application (90.0ms)
+Completed 500 Internal Server Error in 154ms
+
+ActionView::Template::Error (undefined method `model_name' for ActiveRecord::Relation:Class):
+    15: 	<% end %>
+    16: 	</div>
+    17: 	
+    18: 	<p><%= link_to "Next", @entry.next %>
+    19:   </div>
+    20: </div>
+  app/views/entries/show.html.erb:18:in `_app_views_entries_show_html_erb__3869637427938038417_70252692168720'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.7ms)
+
+
+Started GET "/entries/9-how-do-i-work-out-my-contents-sum" for 127.0.0.1 at 2013-09-17 15:04:17 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"9-how-do-i-work-out-my-contents-sum"}
+  [1m[36mEntry Load (0.1ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1[0m  [["id", "9-how-do-i-work-out-my-contents-sum"]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/show.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `model_name' for ActiveRecord::Relation:Class):
+    15: 	<% end %>
+    16: 	</div>
+    17: 
+    18:   </div>
+    19: </div>
+  app/views/entries/show.html.erb:18:in `_app_views_entries_show_html_erb__3869637427938038417_70252692168720'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 09:42:43 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (6.6ms)[0m  [1mSELECT "entries".* FROM "entries" ORDER BY landlord_id[0m
+  [1m[35mActsAsTaggableOn::Tag Load (1.0ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (1.0ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (129.9ms)
+Completed 200 OK in 468ms (Views: 386.0ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" ORDER BY landlord_id[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /toast.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /jquery-ui.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/base.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /entries.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:44 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/tags/buildings%20insurance" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Processing by EntriesController#index as HTML
+  Parameters: {"tag"=>"buildings insurance"}
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE (lower(name) = 'buildings insurance')[0m
+  [1m[35mEntry Load (0.6ms)[0m  SELECT "entries".* FROM "entries" JOIN taggings entries_taggings_b3d5c49 ON entries_taggings_b3d5c49.taggable_id = entries.id AND entries_taggings_b3d5c49.taggable_type = 'Entry' AND entries_taggings_b3d5c49.tag_id = 2 ORDER BY landlord_id, guide_id
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  Rendered entries/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 100ms (Views: 62.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:42:49 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 09:46:46 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.5ms)[0m  [1mSELECT "entries".* FROM "entries" ORDER BY landlord_id[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.5ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (124.9ms)
+Completed 200 OK in 278ms (Views: 259.9ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries" ORDER BY landlord_id[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 46ms (Views: 42.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /jquery-ui.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /toast.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/base.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /entries.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:46:47 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/tags/General" for 127.0.0.1 at 2013-09-18 09:46:50 +0100
+Processing by EntriesController#index as HTML
+  Parameters: {"tag"=>"General"}
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE (lower(name) = 'general')[0m
+Completed 500 Internal Server Error in 9ms
+
+NameError (undefined local variable or method `landlord_id' for #<EntriesController:0x007ff59dfdb458>):
+  app/controllers/entries_controller.rb:5:in `index'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/tags/General" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Processing by EntriesController#index as HTML
+  Parameters: {"tag"=>"General"}
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE (lower(name) = 'general')[0m
+  [1m[35mEntry Load (0.1ms)[0m  SELECT "entries".* FROM "entries" JOIN taggings entries_taggings_92db4ea ON entries_taggings_92db4ea.taggable_id = entries.id AND entries_taggings_92db4ea.taggable_type = 'Entry' AND entries_taggings_92db4ea.tag_id = 1
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  Rendered entries/index.html.erb within layouts/application (73.2ms)
+Completed 200 OK in 215ms (Views: 190.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /toast.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /jquery-ui.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /active_admin/base.js - 304 Not Modified (80ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /entries.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:07 +0100
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" ORDER BY landlord_id
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  Rendered entries/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:10 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/tags/Landlord" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Processing by EntriesController#index as HTML
+  Parameters: {"tag"=>"Landlord"}
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" WHERE (lower(name) = 'landlord')
+  [1m[36mEntry Load (0.1ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE (1 = 0)[0m
+  Rendered entries/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:12 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:13 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:13 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:13 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" ORDER BY landlord_id
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  Rendered entries/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /entries.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:49:14 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 09:50:15 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.1ms)[0m  [1mSELECT "entries".* FROM "entries" [0m
+Completed 500 Internal Server Error in 12ms
+
+ArgumentError (comparison of Array with Array failed):
+  app/controllers/entries_controller.rb:9:in `sort_by'
+  app/controllers/entries_controller.rb:9:in `index'
+
+
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/ashleybaxter/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" ORDER BY landlord_id, guide_id[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (97.8ms)
+Completed 200 OK in 230ms (Views: 215.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /jquery-ui.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /toast.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:30 +0100
+Served asset /active_admin/base.js - 304 Not Modified (86ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:31 +0100
+Served asset /entries.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:31 +0100
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-18 09:51:31 +0100
+Served asset /sessions.js - 304 Not Modified (3ms)
