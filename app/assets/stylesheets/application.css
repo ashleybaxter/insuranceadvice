@@ -150,6 +150,10 @@ header h1, .login h1 {
 }
 	#guides p {
 		margin-bottom: 0 !important;
+		font-size: 110%;
+	}
+	#guides a:link {
+		padding: 0 5px;
 	}
 
 nav {
