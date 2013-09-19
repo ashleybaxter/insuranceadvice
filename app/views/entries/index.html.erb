@@ -8,7 +8,7 @@
 	<%= content_tag(:div, class: 'unit one-of-two entry') do %>
 		<h3><%= link_to entry.title, entry %></h3>
 
-		<p class="tags"><%= raw entry.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p>
+		<p class="tags">[Tags: <%= raw entry.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>]</p>
 	<% end %>
 <% end %>
   </div>
