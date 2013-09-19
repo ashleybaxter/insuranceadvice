@@ -2,6 +2,8 @@ class Entry < ActiveRecord::Base
   attr_accessible :description, :title, :tag_list, :landlord_id, :guide_id
   acts_as_taggable
   
+  validates :landlord_id, :guide_id, :uniqueness => true
+  
   def to_param
     "#{id} #{title}".parameterize
   end
