@@ -201,7 +201,8 @@ nav {
 .tags, .tags a:link, .tags p, p.tags {
 	color: #2b7490;
 	font-variant:small-caps;
-	font-size: 90%;
+	font-size: 87%;
+	text-transorm: lowercase;
 }
 
 .search {
