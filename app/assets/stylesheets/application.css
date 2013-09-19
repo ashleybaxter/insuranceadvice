@@ -198,8 +198,9 @@ nav {
 	padding-top: 40px;
 }
 
-.tags, .tags a:link {
+.tags, .tags a:link, .tags p {
 	font-size: 85%;
+	color: #2b7490;
 }
 
 .search {
