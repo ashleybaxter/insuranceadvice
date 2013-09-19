@@ -199,7 +199,7 @@ nav {
 }
 
 .tags, .tags a:link, .tags p {
-	font-size: 85%;
+	font-size: 85% !important;
 	color: #2b7490;
 }
 
