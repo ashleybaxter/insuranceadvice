@@ -169,7 +169,7 @@ nav {
 	margin-bottom: 0.35em;
 }
 	.entry p {
-		font-size: 0.8em !important;
+		font-size: 0.8em;
 	}
 	.new-entry {
 		background: #3ea5ce;
@@ -198,9 +198,10 @@ nav {
 	padding-top: 40px;
 }
 
-.tags, .tags a:link, .tags p {
-	font-size: 85% !important;
+.tags, .tags a:link, .tags p, p.tags {
 	color: #2b7490;
+	font-variant:small-caps;
+	font-size: 90%;
 }
 
 .search {

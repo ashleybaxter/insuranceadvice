@@ -13,5 +13,5 @@ class Entry < ActiveRecord::Base
       scoped
     end
   end
-  
+
 end
