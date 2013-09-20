@@ -15,5 +15,9 @@ class Entry < ActiveRecord::Base
       scoped
     end
   end
+  
+  def next
+    self.class.find(:first, :conditions => ["landlord_id > ?",self.landlord_id])
+  end
 
 end

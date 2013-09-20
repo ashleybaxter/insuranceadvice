@@ -23,6 +23,7 @@ class EntriesController < ApplicationController
   
   def show
     @entry = Entry.find(params[:id])
+    @next_landlord = @entry.next
   end
   
   def edit
