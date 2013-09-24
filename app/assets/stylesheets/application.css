@@ -155,6 +155,10 @@ header h1, .login h1 {
 	#guides a:link {
 		padding: 0 5px;
 	}
+	
+.next-guide {
+	
+}
 
 nav {
 	font-size: 0.7em;
