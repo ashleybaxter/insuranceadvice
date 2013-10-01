@@ -51435,3 +51435,432 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-01 13:34:10 +0100
 Served asset /sessions.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Processing by EntriesController#index as HTML
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" ORDER BY landlord_id, guide_id[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (103.3ms)
+Completed 200 OK in 239ms (Views: 223.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /jquery-ui.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /toast.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:11 +0100
+Served asset /active_admin/base.js - 304 Not Modified (79ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:12 +0100
+Served asset /entries.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:12 +0100
+Served asset /sessions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:12 +0100
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:15 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-10-01 13:49:18 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GafF/6iIeP/L1x6Fsb1fjDTlAQy2if93pmFSLcLgV8c=", "email"=>"ashleybaxter@me.com", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'ashleybaxter@me.com' LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 288ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" ORDER BY landlord_id, guide_id
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  Rendered entries/index.html.erb within layouts/application (21.0ms)
+  [1m[35mUser Load (5.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 41ms (Views: 33.4ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:19 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/entries/new" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Processing by EntriesController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  Rendered entries/_form.html.erb (110.2ms)
+  Rendered entries/new.html.erb within layouts/application (117.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 132ms (Views: 130.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:22 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started POST "/entries" for 127.0.0.1 at 2013-10-01 13:49:34 +0100
+Processing by EntriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GafF/6iIeP/L1x6Fsb1fjDTlAQy2if93pmFSLcLgV8c=", "entry"=>{"title"=>"", "description"=>"", "tag_list"=>"", "landlord_id"=>"", "guide_id"=>"", "home_id"=>""}, "commit"=>"Create Entry"}
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" IS NULL AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "entries" ("created_at", "description", "guide_id", "home_id", "landlord_id", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 01 Oct 2013 12:49:34 UTC +00:00], ["description", ""], ["guide_id", nil], ["home_id", nil], ["landlord_id", nil], ["title", ""], ["updated_at", Tue, 01 Oct 2013 12:49:34 UTC +00:00]]
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 13 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/entries/13
+Completed 302 Found in 18ms (ActiveRecord: 5.5ms)
+
+
+Started GET "/entries/13" for 127.0.0.1 at 2013-10-01 13:49:34 +0100
+Processing by EntriesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."id" = ? LIMIT 1  [["id", "13"]]
+  [1m[36mEntry Load (0.1ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE (landlord_id > NULL) LIMIT 1[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 13 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered entries/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 77ms (Views: 74.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:35 +0100
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Processing by EntriesController#index as HTML
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" ORDER BY landlord_id, guide_id
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 10 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 11 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 12 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 13 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 9 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 7 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  [1m[36mActsAsTaggableOn::Tag Load (0.1ms)[0m  [1mSELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 8 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)[0m
+  [1m[35mActsAsTaggableOn::Tag Load (0.1ms)[0m  SELECT "tags".* FROM "tags" INNER JOIN "taggings" ON "tags"."id" = "taggings"."tag_id" WHERE "taggings"."taggable_id" = 6 AND "taggings"."taggable_type" = 'Entry' AND (taggings.context = 'tags' AND taggings.tagger_id IS NULL)
+  Rendered entries/index.html.erb within layouts/application (23.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 37ms (Views: 34.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/toast.css?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /toast.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/entries.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-01 13:49:38 +0100
+Served asset /users.js - 304 Not Modified (0ms)

@@ -4,7 +4,6 @@ class Entry < ActiveRecord::Base
   
   validates :landlord_id, :uniqueness => true, :if => :landlord_id?
   validates :guide_id, :uniqueness => true, :if => :guide_id?
-  validates :home_id, :uniqueness => true, :if => :home_id?
   
   def to_param
     "#{id} #{title}".parameterize
